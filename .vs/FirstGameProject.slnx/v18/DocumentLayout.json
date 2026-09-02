@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\FirstGameProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,32 +31,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameController.cs",
+              "RelativeDocumentMoniker": "GameController.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameController.cs",
+              "RelativeToolTip": "GameController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T12:51:08.247Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ValidationHelper.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "ValidationHelper.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\ValidationHelper.cs",
               "RelativeToolTip": "ValidationHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T12:28:02.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Game.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\Game.cs",
               "RelativeToolTip": "Game.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwGcAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T09:42:14.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
