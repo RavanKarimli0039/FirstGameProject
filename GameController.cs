@@ -1,48 +1,87 @@
-﻿namespace FirstGameProject
+﻿using FirstGameProject;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Concurrent;
+using System.Runtime.CompilerServices;
+
+namespace FirstGameProject;
+
+[ApiController]
+[Route("api/[controller]")]
+
+public class GameController : ControllerBase    
 {
-    internal class GameController
+    private static readonly ConcurrentDictionary<string, GameSession> Sessions = new();
+
+
+    [HttpPost("start")]
+    public IActionResult StartGame([FromBody] string difficulty)
     {
-        public void StartNewGame(Game game)
+        var session = new GameSession();
+        session.SetDifficulty(difficulty);
+        Sessions[session.Id] = session;
+
+        return Ok(new { sessionId = session.Id, min = session.MinRange, max = session.MaxRange, maxAttempts = session.MaxAttempts, timeRemaining = session.TimeRemaining });
+    }
+
+
+
+    [HttpPost("guess")]
+
+    //	This method checks: "Does a game session with that ID exist?"
+    public IActionResult MakeGuess([FromBody] GuessRequest request)
+    {
+        if(!Sessions.TryGetValue(request.SessionId, out var session))
         {
-            string difficultyLevel;
-            bool isValid;
-
-            do
-            {
-                Console.WriteLine("Enter your type of difficulty:");
-                difficultyLevel = Console.ReadLine();
-                isValid = ValidationHelper.IsValidDifficulty(difficultyLevel);
-
-                if (!isValid)
-                {
-                    Console.WriteLine("The input is wrong, try again.");
-                }
-
-            } while (!isValid);
-
-            game.SetDifficulty(difficultyLevel);
-            game.GenerateSecretNumber();
+            return NotFound(new { message = "Game session not found." });
+        }
+        if (!session.IsTimeRemaining())
+        {
+            Sessions.TryRemove(request.SessionId, out _);
+            return Ok(new { status = "Lost", message = "Out Of Time!, You Lost.", correctNumber = session.SecretNumber });
+        }
+        if (!session.HasAttemptsRemaining())
+        {
+            Sessions.TryRemove(request.SessionId, out _);
+            return Ok(new { status = "Lost", message = "Out of Attempts!, You Lost.", correctNumber = session.SecretNumber });
         }
 
+        bool IsValid = ValidationHelper.IsValidGuess(request.Guess.ToString(), session.MinRange, session.MaxRange);
 
-        public int GetValidatedGuess(Game game)
+        if (!IsValid)
         {
-            string guess;
-            bool IsValidGuess;
-
-            do
-            {
-                Console.WriteLine("Enter your guess :");
-                guess = Console.ReadLine();
-                IsValidGuess = ValidationHelper.IsValidGuess(guess, game.MinRange, game.MaxRange);
-
-                if (!IsValidGuess)
-                {
-                    Console.WriteLine("The input is wrong, try again.");
-                }
-            } while (!IsValidGuess);
-            int number = int.Parse(guess);
-            return number;   
+            return Ok(new { status = "Invalid", message = $"Please Enter a number between {session.MinRange} and {session.MaxRange}" });
         }
+
+        string result = session.CheckGuess(request.Guess);
+        int AttemptRemaining = session.MaxAttempts - session.AttemptsUsed;
+
+        if(result == "Correct")
+        {
+            double timeTaken = (DateTime.Now - session.StartTime).TotalSeconds;
+            Sessions.TryRemove(request.SessionId, out _);
+            return Ok(new { status = "Won", message = "Congrats!, You guessed correctly", timeTaken = (int)timeTaken });
+        }
+
+        if (!session.HasAttemptsRemaining())
+        {
+            Sessions.TryRemove(request.SessionId, out _);
+            return Ok(new { status = "Lost", message = "Out of Attempts!, You lost", correctNumber = session.SecretNumber });
+        }
+
+        return Ok(new
+        {
+            status = "InGame",
+            result = result,
+            AttemptRemaining = AttemptRemaining
+        });
+    }
+   
+    public class GuessRequest
+    {
+        public string SessionId { get; set; } = string.Empty;
+        public int Guess { get; set; }
     }
 }
+
+
