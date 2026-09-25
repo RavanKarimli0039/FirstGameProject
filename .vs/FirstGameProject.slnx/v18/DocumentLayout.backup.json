@@ -3,20 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\FirstGameProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\firstgameproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:firstgameproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|solutionrelative:gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B52CFF7-B3E5-6D1C-0CAA-41CF8D15FFB8}|FirstGameProject.csproj|c:\\users\\user\\source\\repos\\firstgameproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +37,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "GameController.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameController.cs",
               "RelativeDocumentMoniker": "GameController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameController.cs",
               "RelativeToolTip": "GameController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T12:51:08.247Z",
               "IsPinned": true,
@@ -48,55 +55,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAGIVAAAAAAAAAAAAAGIVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-24T18:55:58.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirstGameProject",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\FirstGameProject.csproj",
+              "RelativeDocumentMoniker": "FirstGameProject.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\FirstGameProject.csproj",
+              "RelativeToolTip": "FirstGameProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-24T18:53:14.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAAABoBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2026-09-21T08:08:31.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameSession.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameSession.cs",
               "RelativeDocumentMoniker": "GameSession.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\GameSession.cs",
               "RelativeToolTip": "GameSession.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wDcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T13:13:31.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ValidationHelper.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "ValidationHelper.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\ValidationHelper.cs",
               "RelativeToolTip": "ValidationHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-02T12:28:02.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FirstGameProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FirstGameProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T08:10:13.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-02T08:10:13.411Z"
             }
           ]
         }

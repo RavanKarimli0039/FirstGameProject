@@ -1,0 +1,8 @@
+wwwroot\index.html
+wwwroot\sounds\click.ogg
+wwwroot\sounds\confirm.ogg
+wwwroot\sounds\error.ogg
+wwwroot\sounds\game-music.ogg
+wwwroot\sounds\lose-theme.ogg
+wwwroot\sounds\menu-music.ogg
+wwwroot\sounds\win-theme.ogg.ogg
